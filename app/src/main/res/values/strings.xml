@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Puzzle</string>
+    <string name="title_activity_bottom__nevigation">Bottom_Nevigation</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>

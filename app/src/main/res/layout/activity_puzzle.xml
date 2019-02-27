@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Puzzle"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_margin="15dp"
+        android:orientation="vertical">
+
+
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    >
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/puzzle"
+        android:text="1"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:id="@+id/Btn1"
+
+        />
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/puzzle"
+        android:text="2"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:id="@+id/Btn2"
+
+        />
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:background="@drawable/puzzle"
+        android:text="3"
+        android:textColor="#ffffff"
+        android:id="@+id/Btn3"
+        android:textSize="30sp"
+        /></LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/puzzle"
+            android:text="4"
+            android:textColor="#ffffff"
+            android:id="@+id/Btn4"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/puzzle"
+            android:text="5"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:id="@+id/Btn5"
+            android:textSize="30sp"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/puzzle"
+            android:text="6"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:id="@+id/Btn6"
+            android:textSize="30sp"
+            /></LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/puzzle"
+            android:text="7"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:id="@+id/Btn7"
+            android:textSize="30sp"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/puzzle"
+            android:text="8"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:id="@+id/Btn8"
+            android:textSize="30sp"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/Btn9"
+            android:textSize="30sp"
+            /></LinearLayout></LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp">
+        <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Best Time:"
+       android:textSize="25dp"
+       android:textColor="#000000"
+       android:textStyle="bold"
+       />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_gravity="center"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:textStyle="bold"/></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="15dp">
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current Time:"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:textStyle="bold"/></LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="15dp">
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Moves:"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            /></LinearLayout>
+
+
+</LinearLayout>
